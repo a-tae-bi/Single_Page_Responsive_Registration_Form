@@ -6,10 +6,64 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Single-Page Responsive Registration Form</title>
 		<link rel="stylesheet" href="style.css" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+		</style>
 	</head>
 	<body>
-		<div>
-			<h1></h1>
-		</div>
+		<main>
+			<div id="main_container">
+				<div class="container">
+					<div id="registration_message">
+						<h1>Learn to code by watching others</h1>
+						<p>
+							See how experienced developers solve problems in real-time.
+							Watching scripted tutorials is great, but understanding how
+							developers think is invaluable.
+						</p>
+					</div>
+
+					<div id="right_item">
+						<div id="free_7_days">
+							<p><b>Try it free for 7 days</b> then $20/mo. thereafter</p>
+						</div>
+						<form id="registration_form">
+							<input
+								class="form_input"
+								type="text"
+								id="firstname"
+								placeholder="First Name"
+							/><br />
+							<input
+								class="form_input"
+								type="text"
+								id="lastname"
+								placeholder="Last Name"
+							/><br />
+							<input
+								class="form_input"
+								type="email"
+								id="email"
+								placeholder="Email"
+							/><br />
+							<input
+								class="form_input"
+								type="password"
+								id="password"
+								placeholder="Password"
+							/><br />
+							<button id="claim_free_trail_button">CLAIM YOUR FREE TRAIL</button
+							><br />
+							<p id="Terms_and_Conditions">
+								<small
+									>By clicking on this you are agreeing to our
+									<b id="red_bold">Terms and Conditions</b></small
+								>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
 	</body>
 </html>

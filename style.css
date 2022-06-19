@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form_input {
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 7px 0px;
+    width: 320px;
+}
+
+#firstname, #lastname, #email, #password {
+    border-color: hsl(246, 25%, 77%);
+    border-radius: 5px;
+    border-width: 0.2;
+    width: 80%
+}
+
+#claim_free_trail_button {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+#claim_free_trail_button:hover {
+    opacity: 0.7;
+}
+
+
+body {
+    background-color: hsl(0, 100%, 74%); 
+    color: white;
+    background-image: url("bg-intro-desktop.png");
+}
+
+@media screen and (max-width:375px){
+    body {
+        background-color: hsl(0, 100%, 74%);
+        color: white;
+        background-image: url("bg-intro-mobile.png");
+    }   
+}
+
+#registration_message {
+    color: white;
+    /*background-color: yellow;*/
+    width: 50%;
+    float: left;
+    margin: auto;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#right_item {
+    border-radius: 5px;
+    /*background-color: red;*/
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 50%;
+    float: right;
+}
+
+#registration_form{
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+/*
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10%;
+}*/
+
+@media screen and (max-width: 375px) {
+    #registration_message, #right_item {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #registration_message {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    #registration_form {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 375px) {
+    h1{
+      text-align: center;
+    }
+}
+
+@media screen and  (max-width: 375px) {
+    p{
+      text-align: center;
+    }
+}  
+
+@media screen and (max-width: 375px) {
+    .container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+} 
+
+@media screen and (max-width: 375px){
+    #firstname, #lastname, #email, #password {
+        width: 80%
+    } 
+}
+#free_7_days {
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    padding: 2px 28px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 3%;
+    box-shadow: 0 5px hsl(246, 25%, 77%);
+}
+@media screen and (max-width: 375px) {
+    #free_7_days{
+      margin-bottom: 20px;
+      padding: 2px 5px;
+      font-size: 16px;
+    }
+}
+#Terms_and_Conditions {
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+}
+
+@media screen and (max-width: 375px){
+    #Terms_and_Conditions {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+}
+
+#red_bold {
+    color: hsl(0, 100%, 74%);
+}
+
+#main_container {
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    padding: 20px;
+}
